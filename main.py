@@ -5,7 +5,7 @@ import time
 
 screen = Screen()
 screen.setup(width=800, height=600)
-screen.bgcolor("grey")
+screen.bgcolor("blue")
 screen.title("Pong Game")
 screen.tracer(0)
 right_paddle = Paddle((350, 0))
